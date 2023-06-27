@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    background-color: black;
+  
+}
+.one, .two, .three, .four, .five, .six{
+    width: 400px;
+    height: 600px;
+    background-color: black;
+    margin: 90px 10px 10px 10px;
+}
+.four, .five, .six{
+    margin-bottom: 80px;
+}
+.flower{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(39, 88, 128);
+    max-width:1500px ;
+    margin:120px auto;
+}
+h1,p{
+    color: aliceblue;
+    max-width: 300px;
+    text-align: justify;
+    margin:40px auto 20px auto;
+}
+img{
+    width: inherit;
+    height: 300px;
+    object-fit: cover;
+}
+h3{
+    text-align: center;
+    font-size: 70px;
+    word-spacing: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:linear-gradient(rgb(14, 0, 214), rgb(2, 247, 255), rgb(148, 255, 251));
+}
+.web{
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: rgba(218, 10, 10, 0.166);
+}
+button{
+    background-color: whitesmoke;
+    color: black;
+    width:8rem;
+    height: 2rem;
+    margin-left: 128px;
+    margin-top: 20px;
+    border: none;
+}
